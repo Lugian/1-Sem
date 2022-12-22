@@ -1,0 +1,39 @@
+Excell
+Variável, pode ser srt, float, outros
+
+Comando condicionais (If)
+IF pode ser verdadeiro, falso 
+= (igual)
+i.=
+> (maior)
+< (menor)
+
+IF verdadeiro if(){}
+if(){
+}else if(){
+}esle{
+}
+
+Para realizar contas
+= exemplos =10+59 =52/8*9
+
+ondem dos fatores matemáticos
+P arênteses
+E xponencial
+M ultiplicação
+D divisão
+A dição
+S ubtração
+
+Ordem das condições
+memória
+entrada
+processamento
+sa[da
+
+Char (string da linguagem c)
+exemplo de nome
+Char nome[6] (quantidade de digitos) = "thayla";
+
+Int (numero inteiro)
+int numero1 = 10;

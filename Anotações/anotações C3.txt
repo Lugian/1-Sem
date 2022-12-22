@@ -1,0 +1,56 @@
+Estruturas de repetição (for, while, do while)
+
+Loop (for)
+int count;
+for(count=1; count <=10 ; count++)
+o ++ significa que está crescente
+
+int count;
+for(count=10; count>=1; count--)
+o -- significa que está descrescente
+
+% (mostra o resto da divisão)
+if((i%2)==0) //para saber os números pares
+se o número dividido por 2, não for quebrado, será par.
+
+Simbolo
+- subtração
++ adição
+* multiplicação
+/ divisão
+% resto da divisão
+
+Comparação entre Char
+char e1[3]= "abc";
+char e2[3]= "abd";
+int retorno (o retorno será inteiro, 0, 1, ou -1)
+retorno = strcmp(e1, e2); (está comparando as variaveis)
+printf("retorno = %d \n", retorno); 
+
+Retornos de Strcmp
+0 (os conteudos são iguais)
+< 0 (menor que zero, a e1 é MENOR que e2) essa contagem é feita em uma tabela, sendo C menor que D, pois D vem depois.
+> 0 (maior que zero, a e1 é MAIOR que e2) 
+
+exemplo igual:
+char e1[3]= "abc";
+char e2[3]= "abc";
+int retorno 
+retorno = strcmp(e1, e2); 
+printf("retorno = %d \n", retorno); (abc e abc são iguais, portanto será 0)
+
+exemplo menor:
+char e1[3]= "abc";
+char e2[3]= "abd";
+int retorno 
+retorno = strcmp(e1, e2); 
+printf("retorno = %d \n", retorno);(c vem antes, portando é menor -1 )
+
+exemplo maior:
+char e1[3]= "abd";
+char e2[3]= "abc";
+int retorno 
+retorno = strcmp(e1, e2); 
+printf("retorno = %d \n", retorno);(d vem depois, portanto é maior 1)
+
+

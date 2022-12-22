@@ -1,0 +1,57 @@
+Salvar na pasta de trabalho
+na hora qe pedir o directory você coloca o endereço no 
+Workspace:
+exemp de endereço: G:\Arquivos JAVA\workspace
+
+file > new file > other > java project
+sem modulo
+
+no arquivo > src> new > class
+class: name (maiusculo) 
+public static void main(String[]args)
+
+Programação Orientada a Objeto
+nome        - classe 
+atributo 1  - atributos
+atributo 2  - atributos
+metodo 1  - metodos
+metodo 2  - metodos
+exmp:
+gato    - classe
+nome  - atrib
+peso   - atrib
+cor      - atrib
+miar()  - metd
+ronronar() - metd
+
+Hirarquia JAVA
+- privado (apenas  dentro da classe)
++ publico (funciona externamente)
+# protegido (apenas dentro do projeto)
+
+FUNÇÃO dentro da classe = método
+Classe -> Instância -> Objeto
+exmp: 
+public class Main {
+	// Venda (classe)
+	static Venda v1, v2, v3, v4; //instâncias da classe venda
+	
+	public static void main(String[] args) {
+		v1 = new Venda(); // objetos
+
+printf() é usado para formatação %d, %f, %s
+println() mostrar na tela, apenas para texto
+
+Instanciar (declarar)
+int variavel;
+Iniciar variavel
+variavel = 10;
+
+Listas ao invés do vetor
+
+(new FileWriter("./testenota/notas.txt") vai criar o arquivo dentro da pasta "testenota bd"
+
+/r é para quebrar linha em arquivo
+
+new FileWriter("notas.txt", true); vai ficar repetindo a infomação conforme voce compila
+new FileWriter("notas.txt", false); salva a mesma infomação conforme voce compila

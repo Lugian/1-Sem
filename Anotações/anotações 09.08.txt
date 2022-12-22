@@ -1,0 +1,42 @@
+Shell (interface de linha de comando)
+Bach 
+Cmd 
+Powershell
+Git
+
+Mostrar o conteúdo
+dir 
+ls
+
+limpar a tela
+cls 
+clear
+
+Sair do programa
+exit 
+cuit 
+q 
+close
+
+Navegar entre diretórios
+cd (entrar) exemplo: cd básico
+cd .. \ / (sair) exemplo: cd..(volta uma pasta) cd/(volta tudo)
+cd ../../lp/c (comando para ir de forma rápida)
+
+Criar
+md (cria pastas, pastas dentro de pastas) exemplo: md básico/so (dentro) exemplo: md curitiba parana sla (cria varios em uma linha só)
+
+Excluir IF vazia
+rd (apaga pastas) exemplo: rd paraná
+
+Criar e ler aquivo de TEXTO
+echo (aparece a mensagem escrita ou cria um arquivo txt) exemplo: echo "eu sou linda">thay.txt
+type (lê o arquivo escolhido) exemplo: type thay.txt
+del (apaga o arquivo escolhido) exemplo: del thay.txt
+
+Mover arquivo de lugar
+Move
+
+Copiar arquivo para outro lugar
+Copy
+

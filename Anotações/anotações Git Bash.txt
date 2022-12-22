@@ -1,0 +1,24 @@
+Configurar o Git Bash
+git config --global user.name " "
+git config --global user.email pipipip@slsk.com
+git config --global --add safe.directory 'D:/Aula 23.08/Exemp1'
+
+Para iniciar 
+git init
+
+Para verificar os arquivos
+git status
+
+Clonar o Repositório do Github
+git clone https://github.com/Lugian/Cv.git
+
+Como linkar o repositório
+git remove add origin https://github.com/Lugian/Cv.git (a origem de onde vamos enviar or aquivos)
+
+
+Enviar algo para o Github
+git add . (quando queremos enviar um arquivo damos esse comando, tem q ficar verde, verificamos usando git status)
+git commit -m " " (nomear o arquivos q vamos enviar)
+git push origin master (subir o arquivo para o github)
+
+

@@ -1,0 +1,237 @@
+Tag Style=""
+
+Propriedade Cor
+Propriedade: valor; 
+Color: red;
+Color: rgb(66, 12, 567);
+Color rgba(66. 12. 567, .5); (transparencia da cor) .5
+
+Tag name	p
+id		#id
+class		.class
+
+exemplo de Tag name
+<style>
+    p{
+        color:#5538e8;
+    }
+</style>
+
+Modificando o id de um objeto
+identificador{
+	propriedade:valor;
+	}
+
+Exemplo de id
+<style>
+    #texto{
+        color:aqua; (formata ele usando CSS)
+    }
+</style>
+<body>
+    <p id="texto">alo alo alo</p> (você identifica o objeto com o id)
+</body>
+
+Mudar a font
+font-family:'Arial';
+Fonte reserva (caso uma não funcione, terá outra)
+font-family:'Arial', 'Lucida Sans';
+
+Mudar a cor
+color:red;
+
+Tamanho da fonte
+font-size: 32px;
+width: 500px; (largura)
+height: 300px; (altura)
+
+Background da letra
+background-color:red;
+
+Background
+BLUR (deixar fosco o fundo
+backdrop-filter: blur(10px);
+TRANSPARENCIA(css)
+background: rba(0, 0, 0, 0.8) onde está o 0.8 é a transparencia
+TRANSPARENCIA GRADIANTE
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+
+Borda da letra
+border: 2px groove red;
+groove (sombreamento)
+dotted (bolinhas?)
+dashed (tracinhos)
+double (2 bordas)
+outset (sombreamento de formas)
+
+Borda arredondada
+border-radius: 15px;
+
+Largura e alturada borda
+border-width
+border-height
+
+Para importar uma nova fonte
+https://fonts.google.com/
+clica na fonte
+@import
+pega o import colocado
+
+Imagem de fundo
+body{
+     background-image: url();
+}
+
+Para a imagem de fundo não repetir
+body{
+    background-repeat: repeat-x;
+}
+
+Tamanho do background
+background-size: 500px (largura) 300px (altura);
+background-size: cover; (ajusta de acordo com o tamanho do navgador) 
+
+Cor de fundo
+background-color: red;
+
+Para aredondar
+border-radius: 75px; (o valor tem q ser a metade da largura e altura)
+
+Possicionar elemento
+position: static; (ele fica estatico)
+position: relative; (relativo aos elementos em volta)
+position: absolute; (ele procura um relativo para estar dentro)
+
+position: sticky; (o elemento anda junto com a pagina)
+top: 0px; (vai parar de andar junto com a pagina de acordo com o valor)
+
+top: 0px; (move para baixo)
+bottom: 0px; (move para cima)
+right: 0px; (move para esquerda)
+left: 0px; (move para direita)
+
+Margem Externa
+margin: 20px; (pega todos os lados, como se fosse a margem de uma folha)
+margin: 100px 10px 25px 0px; (cada valor é de um lado)
+100px é o valor do TOP
+10px é o valor de RIGHT
+25px é o valor de BOTTOM
+0px é o valor de LEFT
+margin-top: 100px; (magem apenas para o top)
+(segue o mesmo raciocinio para os outros lados)
+
+Margem Interna
+padding: 50px;
+padding: 100px 10px 25px 0px;
+100px é o valor do TOP
+10px é o valor de RIGHT
+25px é o valor de BOTTOM
+0px é o valor de LEFT
+padding-top: 100px; (magem apenas para o top)
+(segue o mesmo raciocinio para os outros lados)
+
+Tamanho de elemento e do corpo da página
+body{
+	width:100vw;
+	height: 100vh;
+}
+
+footer{
+	widht: 100vw;
+	height: 20vh;
+}
+
+Reseta o valor pré definido
+*{
+	margin:0;
+	padding:0;
+}
+
+
+Tamanho da div
+box-sizing: border-box; (respeita os valores informados)
+
+Float 
+float: left; (ele posiciona sua imagem)
+
+Tirando bolinha da lista enumerada (css)
+list-style: none;
+
+Formatação (html)
+    <ul class="menu"> 
+        <li> Home </li>
+        <li> Produtos </li>
+        <li> Sobre nós </li>
+        <li> Redes Sociais </li>
+    </ul>
+(css)
+.menu > li { 
+    float: left;
+    margin-left: 20px;
+}
+
+Formatação > 
+.menu > li { (com espaço ele irá pegar apenas os elementos filhos, as subdivisões dentro não será formatada)
+    float: left;
+    margin-left: 20px;
+}
+
+Formatação espaço (html)
+    <div class="exm"> 
+        <div id="c1"></div>
+        <div id="c2">
+            <div id="cr"></div> 
+        </div>
+    </div>
+nesse caso temos 3 subdivisões, com a formação > não ira funcionar
+(css)
+.exm  div{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border: 4px solid rgb(62, 65, 233);
+}
+
+Escrolando a sobreposição
+em alguns casos como o flew-wrap (quebra de linha), o conteudo pode sobrepor o valor definido;
+overflow: scroll; (ele deixa o elemento não sobrepor na rolagem)
+overflow-y: scroll; (funciona apenas para escrolar para baixo) ()
+overflor-x: scroll; (funciona apenas para escrolar para o lado) ()
+
+DIsplay (define uma posição e formata proporcionalmente)
+display: flex; (deixa ao lado) 
+Posicionamento usando o DIsplay 
+flex-direction: colum; (deixa em coluna) (tem q colocar a função display: flex; para fazer o direction)
+flex-wrap: wrap; (quebra de linha)
+flew-wrap: no-wrap; (não quebra a linha e posiciona os elementos)
+flew wrap: wrap-recerse. (inverte as posições de quebra de linha)
+
+Posicionamento CSS
+align-items: center; (é igual o align normal, porém para itens, podemos organizar usando display e align) (centraliza na vertical)
+justify-content: center; (centraliza na horizontal)
+justify-content: space-btwem; (ele da um espaço entre os itens, até q cheguem na extremidade)
+justify-content: space-around; (ele da um espaçamento interno entre os itens)
+justify-content: space-evenly; (ele da um espaçamento interno entre os itens de acordo com a margem)
+
+Mudança de cursor
+cursor: pointer; (quando passa em cima do elemento, o cursor muda)
+
+Mudança de cor 
+hover (css)
+p:hover{ (quando você passar o mouse por cima, a cor do elemento irá mudar)
+	border: 2px solid red;
+}
+
+Display grid
+display: grid;
+grid-template-columns: 50% 50%; (duas colunas, cada uma ocupando 50%)
+grid-template-columns: repeat(2, 50%);
+grid-template-columns: repeat(2, 1fr); (fr = fração)
+		    1fr, 1fr; (duas colunas, vai somar = 1+1, e ficar 1/2)
+grid-template-columns: repeat(auto-fill, 50%); (auto-fill: ele preenche até onde dá)
+grid-teplate-rows: 100px; (tamanho das linhas das colunas)
+grid-auto-rows: 100px; (independente da quantidade das linhas, terá 100px)
+
+Espaçamento entre linhas e colunas
+gap: 5px 10px; (linhas, colunas)

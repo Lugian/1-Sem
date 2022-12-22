@@ -1,0 +1,63 @@
+Para fazer a variavel pedida aparecer
+int num1;
+printf("digite um numero");
+scanf("%d", &num1);
+printf("o numero %d foi o digitado?", num1);
+
+Fazendo contas
+float A, B, X;
+A= 5.2;
+B= 6.2;
+X= A+B;
+printf("o valor de %f + %f foi %f", A, B, X);
+
+Colocando valores na variavel
+A= A+B; (A terá um novo valor)
+A+1; (A será somado com mais 1)
+A--; ou A++; (soma ou subtrai com 1)
+
+Comparação entre variaveis
+if(A != B)  (!= valor diferente)
+if(A == B) (== valor igual)
+if(A > B) (> valor maior)
+if(A >= B) (>= maior ou igual)
+if(A < B) (< valor menor)
+if(A <= B) (<= menor ou igual)
+
+else (o que não for if, será else)
+if(A == 10) {
+	printf("Você terá desconto");
+}else{
+	printf("Você NÃO terá desconto");
+}
+
+Comparação com encadeamento
+if(A != B) {      (se A for diferente de B)
+	if(A > B){  (e se for maior que B)
+	}
+}
+
+Comparação com 3 variaveis
+if(a == b && b == c) (A é igual a B, B é igual a C)
+if(a == b && b == c && a == c) 
+
+Vetores de variavel
+int vet[5]; (dentro das chaves é a quantia de variavel)
+vet [0] =45; (o valor da primeira variavel é de 45)
+
+Operações com vetores
+int a=5, vet[1];
+vet[0]=5;
+vet[1]= a+vet[0]; (mesmo coisa q 5+5)
+
+Números separados por espaço
+printf("digite 6 numeros, separando com espaço");
+scanf("%d", &a);
+scanf("%d", &b);
+scanf("%d", &c);
+scanf("%d", &d);
+scanf("%d", &e);
+scanf("%d", &f);
+
+
+

@@ -1,0 +1,11 @@
+FUNÇÕES
+
+tipofunção nomefunção (){
+}
+
+int macaco (){
+	return; (vai dar um retorno)
+}
+void macaco(){ (apenas executa a informação, mas não da retorno/guarda informação)
+}
+ 

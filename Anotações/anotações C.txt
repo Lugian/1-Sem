@@ -1,0 +1,50 @@
+#include <> (importar bibliotecas)
+
+
+; (significa que você terminou a linha)
+
+
+int main () {
+return 0;}      (função principal) 
+
+
+printf("") (para aparecer o texto)
+printf("pipipi %d", abacaxi) (formatar a variavel)
+printf("o texto digitado é %d?", abacaxi")
+
+
+scanf("%", &) (serve para guardar informações do print)
+exemplo: 
+int azul;
+printf("digite 2"); (o numero digitado tem q ser inteiro)
+scanf("%d", &azul); (o numero digitado será guardado)
+
+
+%d (variavel int)
+%f (variavel float)
+%s (texto char)
+
+
+\n (pula linha) 
+\t (espaço depois do texto)
+
+
+int (numeros inteiros)
+nome da variavel
+exemplo: int Abacaxi;
+	   Abacaxi= 1
+mais de uma variavel
+exemplo: int banana, abacaxi;
+
+
+float (numeros quebrados)
+para não prolongar dps do ponto
+exemplo:
+%2.f (2 casas dps do ponto)
+
+
+char (caracteres/teste)
+
+
+
+
