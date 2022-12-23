@@ -1,0 +1,373 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.60rem;
+    color: rgb(0, 0, 179);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/backgroundimage.png);
+    backdrop-filter: brightness(60%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundmain{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 40px 40px 40px rgba(86, 123, 255, 0.225);
+}
+
+.obj1{
+    width: 28%;
+    height: 90%;
+    background-image: linear-gradient(rgb(118, 53, 238), rgba(89, 178, 255, 0.508));
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+}
+
+.obj2{
+    margin-top: 78px;
+    width: 28%;
+    height: 90%;
+    background-image: linear-gradient(rgba(118, 53, 238, 0.147), rgba(89, 178, 255, 0.103));
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+}
+
+.cell{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 60%;
+    height: 81%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 40px 40px 40px rgba(86, 123, 255, 0.225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.cell:hover{
+    width: 63%;
+    height: 84%;
+    margin-top: 97px;
+    margin-left: 397px;
+}
+
+.maincell{
+    background-color: rgb(241, 246, 255);
+    width: 90%;
+    height: 95%;
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    grid-template-columns: 40% 20% 30% 10%;
+    grid-template-rows: 15% 8% 9% 10% 7% 6% 10% 7% 7% 7%;
+    grid-template-areas: "headercell headercell headercell headercell"
+                        "msg1 msg1 vazio vazio"
+                        "msg2 msg2 vazio vazio"
+                        "vazio1 imagensdog imagensdog imagensdog"
+                        "vazio1 msg3 msg3 msg3"
+                        "vazio1 msg4 msg4 msg4"
+                        "msg5 msg5 vazio2 vazio2"
+                        "msg6 msg6 vazio2 vazio2"
+                        "msg7 msg7 vazio2 vazio2"
+                        "enviar enviar enviar botao";
+    gap: 9px;
+    
+}
+.vazio{
+    display: grid;
+    grid-area: vazio;
+}
+.vazio1{
+    display: grid;
+    grid-area: vazio1;
+}
+.vazio2{
+    display: grid;
+    grid-area: vazio2;
+}
+.headercell{
+    display: grid;
+    grid-area: headercell;
+    grid-template-columns: 10% 17% 60% 13%;
+    grid-template-rows: 25% 75%;
+    grid-template-areas: "whiteblock whiteblock whiteblock whiteblock"
+                        "setaprofile imageprofile textprofile pointsprofile";
+    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: linear-gradient(to left,rgb(118, 53, 238), rgba(89, 178, 255, 0.508));
+}
+
+.whiteblock{
+    width: 55%;
+    display: grid;
+    grid-area: whiteblock;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 56px;
+}
+.imageprofile{
+    margin-top: 10px;
+    width: 85%;
+    height: 60%;
+    display: grid;
+    grid-area: imageprofile;
+    background-color: rgb(118, 53, 238);
+    border-radius: 95%;
+    display: flex;
+    justify-content: center;
+}
+.imgavatar{
+    width: 80%;
+    background-image: url(images/avatar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.textprofile{
+    display: grid;
+    grid-area: textprofile;
+    align-items: center;
+    margin-left: 5px;
+}
+.pointsprofile{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-area: pointsprofile;
+    background-image: url(images/iconmenu.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.setaprofile{
+    display: grid;
+    grid-area: setaprofile;
+    background-image: url(images/setaprofile.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+
+
+.msg1{
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid-area: msg1;
+    background-color: rgb(225, 226, 250);
+    align-items: center;
+}
+.msg2{
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid-area: msg2;
+    background-color: rgb(225, 226, 250);
+    align-items: center;
+}
+.msg3{
+    padding: 9px;
+    color: rgb(0, 54, 99);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: grid;
+    grid-area: msg3;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 10px rgba(0, 43, 197, 0.119);
+    align-items: center;
+}
+.msg4{
+    padding: 5px;
+    color: rgb(0, 71, 99);
+    margin-left: 60px;
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: grid;
+    grid-area: msg4;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgba(0, 39, 181, 0.115);
+    align-items: center;
+}
+.msg5{
+    padding: 5px;
+    width: 110%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid-area: msg5;
+    background-color: rgb(225, 226, 250);
+    align-items: center;
+}
+.msg6{
+    width: 120%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    display: flex;
+    grid-area: msg6;
+    background-image: linear-gradient(to right,rgb(118, 53, 238), rgba(89, 178, 255, 0.508));
+    align-items: center;
+}
+.msg7{
+    width: 120%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    display: flex;
+    grid-area: msg7;
+    background-image: linear-gradient(to right,rgb(118, 53, 238), rgba(89, 178, 255, 0.508));
+    align-items: center;
+}
+.enviar{
+    width: 115%;
+    border-radius: 25px;
+    display: grid;
+    grid-area: enviar;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px 5px rgba(0, 39, 181, 0.115);
+}
+.imagensdog{
+    display: grid;
+    grid-area: imagensdog;
+    display: flex;
+}
+
+#imgajust{
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+#imgajust:hover{
+    width: 32%;
+    height: 92%;
+    
+}
+
+.botao{
+    width: 90%;
+    height: 100%;
+    background-image: url(images/bottomicon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-area: botao;
+    cursor: pointer;
+}
+
+.circ1{
+    width: 12%;
+    height: 60%;
+    background-color: rgb(89, 178, 255);
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circ2{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: rgb(118, 53, 238);
+    transition-duration: 1s;
+}
+.circ2:hover{
+    cursor: pointer;
+    background-color: rgb(190, 185, 255);
+}
+
+.textmain{
+    margin-top: 225px;
+    margin-left: -350px;
+    width: 100%;
+    height: 20%;
+}
+
+.textmain>p{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+}
+.textmain>p:hover{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 400px){
+    body{
+    height: 250vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    }
+    .backgroundmain{
+        height: 100%;
+    }
+
+    .obj1{
+        width: 80%;
+        height: 40%;
+    }
+
+    .obj2{
+        width: 80%;
+        height: 35%;
+        margin-top: 625px;
+        margin-left: -100px;
+    }
+    .cell{
+        width: 100%;
+        height: 130%;
+        margin-top: 100px;
+        margin-left: 50px;
+        box-shadow: 20px 20px 20px rgba(86, 123, 255, 0.225);
+    }
+    .cell:hover{
+        width: 103%;
+        height: 133%;
+        margin-top: 97px;
+        margin-left: 47px;
+    }
+
+    .textmain{
+        font-size: 0.5rem;
+        width: 160%;
+        margin-top: 50px;
+        margin-left: -120px;
+    }
+}
