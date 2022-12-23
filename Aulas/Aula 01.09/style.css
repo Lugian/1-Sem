@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco {
+    width: 50vw;
+    height: 50vh;
+    border: 3px  solid coral; 
+}
+
+img{
+    width: 300px;
+    float: left;
+}
+ul{
+    margin: 30px;
+    list-style: none;
+}
+
+.menu > li { 
+    float: left;
+    margin-left: 20px;
+}
+
+.exm {
+    width: 90vw;
+    height: 50vh;
+    margin: 30px;
+    border: 4px solid seagreen;
+}
+
+.exm > div{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border: 4px solid rgb(62, 65, 233);
+}
+
+.exm > #c1{
+    background-color: rgb(33, 196, 196);
+}

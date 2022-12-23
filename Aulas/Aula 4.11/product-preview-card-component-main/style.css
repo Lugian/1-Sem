@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    width: 40%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+}
+
+.image{
+    width: 50%;
+    height: 100%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+}
+
+.addcard{
+    width: 70%;
+    height: 10%;
+    background-color: hsl(158, 61%, 26%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    cursor: pointer;
+}
+
+p{
+    margin: 30px;
+}
+
+@media screen and (min-width: 1400px){
+    .main{
+        width: 35%;
+        height: 55%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .main{
+        width: 85%;
+        height: 80%;
+        flex-direction: column;
+    }
+
+    .image{
+        width: 100%;
+        height: 35%;
+        background-image: url(images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;           
+    }
+    .text{
+        padding: 0px;
+        width: 100%;
+        height: 65%;
+    }
+}
