@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 40px;
+}
+
+.carregar {
+	border: 5px solid gainsboro;
+	border-radius: 100%;
+    border-left-color: purple;
+	height: 80px;
+	width: 80px;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+    100% {
+		transform: rotate(360deg);
+	}
+}
+
+.carregar.animating {
+	animation: loading 2s linear infinite;
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/564x/6b/b4/37/6bb437401f06d99a04eb0230b99b8388.jpg);
+    backdrop-filter: blur(2px);
+}
+
+.alou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    font-family: 'Krona One', sans-serif;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(8px);
+    margin: 40px;
+    border-radius: 25px;
+    display: flex;
+    width: 85vw;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon > img{
+    margin: 40px;
+    width: 20%;
+    height: 70%;
+}
+
+.icon{
+    cursor: pointer;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+ul> li{
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: azure;
+    background-color: rgb(143, 177, 88);
+}
+
+ul{
+    margin-right: 60px;
+    list-style-type: none;
+    display: flex;
+}
+
+.ajust{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ajust > div{
+    display: flex;
+    font-family: 'Krona One', sans-serif;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+#p11{
+    margin: 40px;
+}
+
+#p22{
+    margin: 40px;
+}
+
+#p33{
+    margin: 40px;
+}
+
+#p1{
+    background-color: rgb(133,143,118,255);
+    width: 70vw;
+    height: 70vh;
+}
+
+#p2{
+    background-color: rgb(116,85,90,255);
+    width: 70vw;
+    height: 70vh;
+}
+
+#p3{
+    background-color: rgb(133,177,164,255);
+    width: 70vw;
+    height: 70vh;
+}
+
+.hover:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 45px;
+}

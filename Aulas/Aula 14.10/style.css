@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #484848;
+}
+
+.area{
+    font-family: 'JetBrains Mono', monospace;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.4fr 0.25fr 0.30fr 4fr;
+    grid-template-areas:"header header" 
+                        "informacao informacao" 
+                        "aovivo aovivo"
+                        "main main";
+}
+
+.header{
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.a1, .a2{
+    display: flex;
+    align-items: center;
+}
+
+.a1{
+    margin-left: 150px;
+}
+
+.infomacao{
+    grid-area: informacao;
+    background-color: rgb(217, 217, 217);
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 5%);
+    grid-template-rows: 50px;
+    gap: 15px;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.container2>div{
+    margin: 20px;
+}
+
+.aovivo{
+    grid-area: aovivo;
+    background-color: #B2B1B1;
+}
+
+.main{
+    grid-area: main;
+    background-color: #484848;
+}
+
+.container3{
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 3% 22%;
+    grid-template-rows: 30% 20% 30% 30% 30% 30% 30%;
+    grid-template-areas:"holow littlen littlein vazio lasts" 
+                        "textholow textlittlen textlittlein vazio lasts" 
+                        "gris textgris textgris vazio lasts"
+                        "poke textpoke textpoke vazio lasts"
+                        "cuphe textcuphe textcuphe vazio lasts"
+                        "mine textmine textmine vazio lasts";
+    gap: 10px 10px;
+}
+
+.holow{
+    grid-area: holow;
+    background-color: red;
+    background-image: url(Assets/hollow.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textholow{
+    grid-area: textholow;
+}
+
+.littlen{
+    grid-area: littlen;
+    background-color: red;
+    background-image: url(Assets/littlenig.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textlittlen{
+    grid-area: textlittlen;
+}
+
+.littlein{
+    grid-area: littlein;
+    background-color: red;
+    background-image: url(Assets/littleinf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textlittlein{
+    grid-area: textlittlein;
+}
+
+.gris{
+    grid-area: gris;
+    background-color: aqua;
+    background-image: url(Assets/gris.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textgris{
+    grid-area: textgris;
+    background-color: aquamarine;
+}
+
+.poke{
+    grid-area: poke;
+    background-color: aqua;
+    background-image: url(Assets/pokemon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textpoke{
+    grid-area: textpoke;
+    background-color: aquamarine;
+}
+
+.cuphe{
+    grid-area: cuphe;
+    background-color: aqua;
+    background-image: url(Assets/cuphead.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textcuphe{
+    grid-area: textcuphe;
+    background-color: aquamarine;
+}
+
+.mine{
+    grid-area: mine;
+    background-color: aqua;
+    background-image: url(Assets/mine.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textmine{
+    grid-area: textmine;
+    background-color: aquamarine;
+}
+
+.lasts{
+    grid-area: lasts;
+    background-color: blue;
+}
+
+.vazio{
+    grid-area: vazio;
+}
+
+

@@ -1,0 +1,20 @@
+thayla	IMC:20,5	Normal
+pedro	IMC:20,9	Normal
+arroz	IMC:34,2	Obesidade
+kira	IMC:28,1	Sobrepeso
+abutre	IMC:23,9	Normal
+kira	IMC:20,5	Normal
+igor	IMC:22,0	Normal
+welli	IMC:30,2	Obesidade
+renye	IMC:33,3	Obesidade
+tati	IMC:22,0	Normal
+kira	IMC:28,1	Sobrepeso
+abutre	IMC:23,9	Normal
+kira	IMC:20,5	Normal
+igor	IMC:22,0	Normal
+welli	IMC:30,2	Obesidade
+renye	IMC:33,3	Obesidade
+tati	IMC:22,0	Normal
+marcel	IMC:16,4	Magreza
+feijao	IMC:15,9	Magreza
+

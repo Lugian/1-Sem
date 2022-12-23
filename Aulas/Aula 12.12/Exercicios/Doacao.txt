@@ -1,0 +1,4 @@
+thayla	f	Inapto
+arroz	m	Inapto
+feijao	m	Apto
+Inapto[Ljava.lang.String;@b915156[Ljava.lang.String;@b915156[Ljava.lang.String;@3b0ae104[Ljava.lang.String;@51f7056e[Ljava.lang.String;@6ddd4699[Ljava.lang.String;@4bd7166f[Ljava.lang.String;@b915156[Ljava.lang.String;@3b0ae104[Ljava.lang.String;@51f7056e[Ljava.lang.String;@6ddd4699[Ljava.lang.String;@4bd7166f[Ljava.lang.String;@17bf3841[Ljava.lang.String;@351b546c[Ljava.lang.String;@5b080fbe[Ljava.lang.String;@762aae0f[Ljava.lang.String;@b915156[Ljava.lang.String;@3b0ae104[Ljava.lang.String;@51f7056e[Ljava.lang.String;@6ddd4699[Ljava.lang.String;@4bd7166f[Ljava.lang.String;@17bf3841[Ljava.lang.String;@351b546c[Ljava.lang.String;@5b080fbe[Ljava.lang.String;@762aae0f[Ljava.lang.String;@b915156[Ljava.lang.String;@3b0ae104[Ljava.lang.String;@51f7056e[Ljava.lang.String;@6ddd4699[Ljava.lang.String;@4bd7166f[Ljava.lang.String;@17bf3841[Ljava.lang.String;@351b546c[Ljava.lang.String;@5b080fbe[Ljava.lang.String;@762aae0f

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charser="UTF-8">
+		<title>aula03</title>
+	</head>
+	<body>
+		<!--form: TAG para formulario,
+		action: para onde os dados do formulario vão
+		method: maneira que será enviado-->
+	
+		<form action="https://www.youtube.com/watch?v=66Bmumvw3NM"method="">
+			<!--Placeholder: aparece um text oque some ao usuario começar a digitar.
+				input type text: aparece um campo onde pode escrever algo dentro,
+				label: texto guia-->
+			<label for "nome"> nome completo: </label>
+			<input type="text" id="nome" placeholder="insira seu nome" required>
+				<br>
+			<label for="data"> data de nascimento: </label>
+			<input type="date" id="data" placeholder="insira sua data de nscimento">
+				<br>
+			<label for="nota"> você nos indicaria? </label>
+			<input type="number" id="nota" min="0" max="5" placeholder="avalie-nos">
+				<br>
+			<label for="email">insira seu email</label>
+			<input type="email" id="email" placeholder="insira seu email">
+				<br>
+			<label for="cor">sua cor favorita:</label>
+			<input type="color" id="cor" placeholder="escolha sua cor">
+				<br>
+			<label for="volume">qual volume você ouve musica?</label>
+			<input type="range" id="volume" type="range" min="0" max="100"> 
+				<br>
+			<!--fieldset: conjunto de campos,
+				legend:legenda/titulo-->
+			<fieldset>
+				<legend>Gênero</legend>
+				<input type="radio" id="masc" name="gênero">
+				<label for="masc">Masculino<label>
+				<input type="radio"  id="fem" name="gênero">
+				<label for="fem">Feminino<label>
+				<input type="radio" id="outros" name="gênero">
+				<label for="outros">Outros<label> 			
+			</fieldset>
+				<br>
+			<fieldset>
+				<legend> monte seu lanche</legend>
+				<input type ="checkbox" id="salada">
+				<label for="salada"> salada</label>
+					<br>
+				<input type ="checkbox" id="bacon">
+				<label for="bacon">Bacon</label>
+					<br>
+				<input type="checkbox" id="tomate">
+				<label for="tomate">Tomate<label>
+					<br>
+				<input type="checkbox" id="hamburguer"> 
+				<label for="hamburguer">Hamburguer<label>
+					<br>
+				<input type="checkbox" id="queijo">
+				<label for ="queijo">Queijo<label>
+			</fieldset>
+				<br>
+			<label for="info">Informações adicionais</label>
+			<textarea id="info"></textarea>
+				<br>
+			<label for="senha">Senha</label>
+			<input id="senha" type="password">
+				<br>
+			<select>
+				<option>Jaguariúna</option>
+				<option>Pedreira</option>
+				<option>Amparo</option>
+				<option>Holambra</option>
+				<option>Serra Negra</option>
+			</select>
+				<br>
+			<input type="reset" value="limpar form"/>
+			<input type="submit">
+		</form>
+	</body>
+</html>
