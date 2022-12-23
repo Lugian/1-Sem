@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+p {
+    color:darkolivegreen;
+}
+#texto{
+    color:rgb(41, 211, 55);
+    font-family: 'Silkscreen', 'Lucida Sans';
+    font-size: 32px;
+    background-color: rgb(166, 203, 233);
+    border: 10px;
+}
+.titulo{
+    color:brown;
+    width: 500px;
+}

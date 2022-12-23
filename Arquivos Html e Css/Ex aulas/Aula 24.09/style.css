@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Caveat Brush', cursive;
+    background-image: url(Assets/background.jpg);
+    backdrop-filter: brightness(50%);  
+    background-repeat: repeat;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 9.5vh;
+    background-color: rgb(39, 0, 0);
+}
+
+header > p{
+    display: flex;
+    align-items: center;
+}
+
+header > p > img{
+    margin: 10px;
+    cursor: pointer;
+}
+
+#busca{
+    background-image: url(Assets/lupaicon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+    width: 220px;
+    height: 33px;
+    border-radius: 6px;
+}
+
+
+#plataforms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#plataforms > ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#plataforms > ul > li:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+}
+  
+ul > li{
+    margin: 50px;
+    list-style-type: none;
+}
+
+#buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+#buy > div > p{
+    margin: 20px
+}
+
+#tlu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(216, 216, 216);
+    width: 90px;
+    height: 40px;
+    background-color: rgb(43, 43, 43);
+}
+
+#tlu:hover{
+    cursor: pointer;
+    background-color: rgb(75, 75, 75);
+}
+
+#jogos > ul{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    background-color: white;
+}
+
+#jogos > ul > li> p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+
+.compra{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(171, 255, 145);
+}
+
+.compra:hover{
+    background-color: rgb(82, 172, 55);
+}
+
+

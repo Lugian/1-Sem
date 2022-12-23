@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 224, 224);
+}
+
+.retangulo {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(245, 220, 173);
+    border: 2px solid rgb(196, 121, 51); 
+}
+
+#terceiro{
+    background-color: cadetblue;
+    position: sticky;
+    top: 20px;
+
+}

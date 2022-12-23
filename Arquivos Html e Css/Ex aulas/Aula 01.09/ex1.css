@@ -1,0 +1,32 @@
+.exm {
+    width: 70vw;
+    height: 60vh;
+    margin: 10px;
+    border: 1px  solid rgb(0, 0, 0); 
+}
+.exm > #r{
+    width: 100%;
+    height: 16%;
+    border: 1px solid rgb(128, 61, 61);
+    background-color: pink;
+}
+.exm > #l{
+    float: left;
+    width: 24%;
+    height: 70%;
+    border: 1px solid rgb(170, 72, 7);
+    background-color: rgb(236, 124, 96);
+}
+.exm > #v{
+    width: 100%;
+    height: 70%;
+    border: 1px solid rgb(28, 99, 49);
+    background-color: rgb(89, 160, 105);
+}
+.exm > #a{
+    float: left;
+    width: 100%;
+    height: 13%;
+    border: 1px solid rgb(148, 109, 1);
+    background-color: rgb(252, 218, 125);
+}
