@@ -1,0 +1,4 @@
+insscalculo()azul	R$1300,00	Deconto INSS = R$0,00
+azul	R$1300,00	Deconto INSS = R$117,00
+pamonha	R$4574,00	Deconto INSS = R$640,36
+azul	R$1400,00	Deconto IRRF = R$0,00

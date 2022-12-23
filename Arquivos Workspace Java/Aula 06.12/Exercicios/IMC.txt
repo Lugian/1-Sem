@@ -1,0 +1,4 @@
+thayla	IMC:20,5	Normal
+pedro	IMC:20,9	Normal
+arroz	IMC:34,2	Obesidade
+

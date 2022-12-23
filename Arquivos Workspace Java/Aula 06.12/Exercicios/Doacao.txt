@@ -1,0 +1,4 @@
+thayla	f	Inapto
+arroz	m	Inapto
+feijao	m	Apto
+
