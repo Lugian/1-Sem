@@ -1,15 +1,4 @@
-<h1 align="center">List of MATRICES and VECTOR</h1>
-<h4 align="center">Exercise if the Language <strong>C</strong></h4>
+<h1 align="center">First semester Senai - DS</h1>
+<h4 align="center">Languages</h4>
 
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>1.</strong> Develop a program that reads the name and salary of 5 people, then reads a percentage index (%) value of salary adjustment;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>2.</strong> Develop a program that reads the name of 5 football teams, the number of wins and the number of draws for each team;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>3.</strong> Develop a program that reads the name and price of 5 goods. Less than 1000 will have a 5% increase in the price of the good, otherwise the increase will be 7%;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>4.</strong> Develop a program that reads the city, the number of voters and the total number of votes. Calculate and display the percentage of participation;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>5.</strong> Develop a program that reads the name and price of 10 goods, then reads the value of the discount percentage rate (%);</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>6.</strong> Write a program that reads 5 integers and displays the numbers in ascending order;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>7.</strong> Make a 3x3 matrix with random values between 0 and 9. Determine the largest number in the matrix and its position;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>8.</strong> Make a 5x5 matrix with random values between 0 and 25. Indicate which is the highest and lowest value in row 4 and the highest and lowest value in column 3;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>9.</strong> Fill a 5x5 matrix with random values between 0 and 50. Display the even and odd numbers, and their quantities;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>10.</strong> Create a program that reads the name and two grades of 5 students;</p>
-<p><img src="https://i.pinimg.com/originals/06/a4/02/06a40213ba023729f4957e9882cb4492.gif" width="50px" align="left" alt="Image study"><br><strong>11.</strong> Create a program that calculates the BMI (Body Mass Index) of 5 people;</p>
-
+<img src="https://i.pinimg.com/564x/6e/46/e7/6e46e7dbe2bb73dacc055e5dbd85c3ad.jpg" width="70px">
