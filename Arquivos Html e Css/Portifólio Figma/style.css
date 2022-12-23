@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Imagens/PagBackground.jpg);
+    backdrop-filter: blur(3px);
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1{
+    margin-top: 70px;
+    width: 72vw;
+    height: 85vh;
+    background: linear-gradient(180deg, rgba(253, 205, 80, 0.9) 0%, rgba(251, 221, 146, 0.9) 100%);
+}
+
+#img{
+    margin-right: 20px;
+}
+
+ #p1{
+    margin: 20px;
+ }
+
+ #img1{
+    margin-top: 20px;
+    margin-left: 90px;
+ }
+
+ #text1{
+    float: left;
+    font-size: 110%;
+ }
+
+ #text2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 250%;
+ }
+
+ #text3{
+    height: 20vh;
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+ .logos{
+    color: #001251;
+    margin-top: 65px;
+    margin-right: 38px;
+    font-size: 18px;
+ }
+
+ .logos > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    width: 23vw;
+    height: 6vh;
+    padding: 12px;
+    background-color: rgba(252, 138, 103, 0.9);
+ }
+
+#aj{
+    margin: 10px;
+}
+
+
+.part2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 350%;
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    width: 28vw;
+    height: 95vh;
+    background: linear-gradient(180deg, #6079FF 0%, #8F8DFF 31.56%, #B9D9FF 100%);
+}
+
+#img33 {
+    background-image: url('Imagens/Pag2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#p2 > p{
+    margin: 60px;
+}
+
+ul > li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.part3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 60px;
+}
+
+#ajust{
+    flex-direction: column;
+}
+
+#p3{
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    width: 50vw;
+    height: 16vh;
+    background: linear-gradient(180deg, #38C06E 0%, #83EE94 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#textp3{
+    width: 260px;
+    font-size: 200%;
+}
+
+#textp31{
+    width: 200px;
+    font-size: 150%;
+}
+
+#project{
+    width: 50vw;
+    height: 50vh;
+    background-image: url(Imagens/Pag3\(img1\).png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
