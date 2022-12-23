@@ -7,7 +7,6 @@
 </head>
 <h1 align="center"><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="44px" alt="h1">    First semester Senai - DS  <img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="44px" alt="h1"></h1>
  
- <br></br>
 <h4 align="center">Languages</h4>
 <ul style="list-style: none;">
    <li align="center">
