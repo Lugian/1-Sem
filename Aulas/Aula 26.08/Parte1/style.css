@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+
+.circulos {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(108, 154, 255);
+    border-radius: 75px; 
+    position: static;
+}
+
+#segundo{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(207, 224, 158);
+}
+#retangulo{
+    position: relative;
+    border: 2px solid rgb(56, 29, 156);
+    width: 400px;
+    height: 300px;
+}
+#terceiro{
+    background-color: rgb(87, 134, 134);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

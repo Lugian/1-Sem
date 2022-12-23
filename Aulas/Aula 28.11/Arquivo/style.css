@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+header{
+    width: 100%;
+    height: 12%;
+    display: grid;
+    grid-template-columns: 20% 40% 20% 20%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logoname vazio input gerenciar";
+    padding: 20px;
+}
+.logoname{
+    display: grid;
+    grid-area: logoname;
+    background-image: url(../Assets/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.vazio{
+    display: grid;
+    grid-area: vazio;
+}
+.input{
+    display: grid;
+    grid-area: input;
+    align-items: center;
+}
+.gerenciar{
+    display: grid;
+    grid-area: gerenciar;
+    align-items: center;
+}
+.porra{
+    width: 75%;
+    height: 70%;
+    border: 4px;
+    border-color: rgb(255, 217, 0);
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.porra:hover{
+    color: black;
+    background-color: rgb(255, 217, 0);
+}
+
+main{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainmovies{
+    width: 80%;
+    height: 100%;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 45% 45%;
+    grid-template-areas: "movie1 movie2 movie3 movie4"
+                        "movie5 vazio vazio vazio";
+    gap: 50px 40px;
+    justify-content: center;   
+}
+.movie1{
+    display: grid;
+    grid-area: movie1;
+    background-image: url(../Assets/movie1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+    justify-items: center;
+}
+.movie2{
+    display: grid;
+    grid-area: movie2;
+    background-image: url(../Assets/movie2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+    justify-items: center;
+}
+    
+.movie3{
+    display: grid;
+    grid-area: movie3;
+    background-image: url(../Assets/movie3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+    justify-items: center;
+}
+.movie4{
+    display: grid;
+    grid-area: movie4;
+    background-image: url(../Assets/movie4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+    justify-items: center;
+}
+.movie5{
+    display: grid;
+    grid-area: movie5;
+    background-image: url(../Assets/movie5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+    justify-items: center;
+}
+
+.hoverlouco{
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.hoverlouco:hover {   
+    background-color: rgba(255, 187, 0, 0.363);
+    background-image: url(../Assets/iconplay.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+#menudrop{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    color: white;
+    padding: 20px;
+    transition-duration: 1s;
+}
+
+#menu{
+    display: none;
+}
+
+#menu:checked ~ #menudrop { 
+   left: 0%;
+   background-color: rgba(31, 31, 31, 0.425);
+}
+
+@media screen and (max-width: 400px){
+    .input, .gerenciar{
+        display: none;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+        grid-template-rows: 100%;
+        grid-template-areas: "menu vazio logoname";
+    }
+    .menu{
+        width: 50%;
+        grid-area: menu;
+        background-image: url(../Assets/menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .mainmovies{
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25% 25%;
+        grid-template-areas: "movie1"
+                            "movie2"
+                            "movie3"
+                            "movie4"
+                            "movie5";
+        gap: 30px 20px;
+    }
+    .gerenciarmenu{
+        width: 100%;
+        height: 5%;
+        background-color:rgb(255, 217, 0);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .inputmenu{
+        display: none;
+        width: 100%;
+        height: 5%;
+        background-color: aqua;
+    }
+}

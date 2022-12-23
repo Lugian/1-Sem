@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(108, 17, 123, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin: 50px;
+    width: 20%;
+}
+
+.entrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 30%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 75%;
+    height: 14%;
+    background-color: rgba(4, 85, 138, 1);
+
+}
+
+input{
+    width: 75%;
+    height: 10%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.linha{
+    width: 75%;
+    height: 1%;
+    background-color: rgba(4, 85, 138, 1);
+}

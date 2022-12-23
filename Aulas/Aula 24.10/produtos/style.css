@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgba(1, 130, 176, 1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(4, 85, 138, 1);
+    padding: 30px;
+}
+
+header>div, .a2, .a1{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin: 10px;
+}
+
+main{
+    width: 100vw;
+    height: 90vh;
+    padding: 30px;
+}
+
+.cadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border: 3px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgba(248, 195, 4, 1);
+}
+
+.area{
+    margin-top: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas:"p1"
+                        "p2"
+                        "p3"
+                        "p4"
+                        "p5";
+    gap: 30px;
+}
+
+.p1{
+    grid-area: p1;
+}
+.p2{
+    grid-area: p2;
+}
+.p3{
+    grid-area: p3;
+}
+.p4{
+    grid-area: p4;
+}
+.p5{
+    grid-area: p5;
+}
+
+.subcontainer{
+    font-size: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6% 17% 8% 10% 17% 10% 3%;
+    grid-template-rows: 100px;
+    grid-template-areas:"imagem codigo numero data produto valor x";
+    gap: 0px 50px;
+}
+.imagem{
+    grid-area: imagem;
+    background-image: url(assets/produtinho.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    border-radius: 25px;
+}
+.codigo{
+    display: grid;
+    align-items: center;
+    grid-area: codigo;
+}
+.numero{
+    display: grid;
+    align-items: center;
+    grid-area: numero;
+}
+.data{
+    display: grid;
+    align-items: center;
+    grid-area: data;
+}
+.produto{
+    display: grid;
+    align-items: center;
+    grid-area: produto;
+}
+.valor{
+    display: grid;
+    align-items: center;
+    grid-area: valor;
+}
+.x{
+    grid-area: x;
+    background-image: url(assets/x.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+header{
+    width: 100%;
+    height: 12%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logoname vazio gerenciar";
+    padding: 20px;
+}
+.logoname{
+    display: grid;
+    grid-area: logoname;
+    background-image: url(../Assets/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.vazio{
+    display: grid;
+    grid-area: vazio;
+}
+.gerenciar{
+    display: grid;
+    grid-area: gerenciar;
+    align-items: center;
+}
+.porra{
+    width: 75%;
+    height: 70%;
+    border: 4px;
+    border-color: rgb(255, 217, 0);
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 217, 0);
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.porra:hover{
+    color: black;
+    background-color: rgb(255, 217, 0);
+}
+
+main{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainmovies{
+    width: 80%;
+    height: 100%;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 10% 80%;
+    grid-template-rows: 25% 25% 25% 25% 25%;
+    grid-template-areas: "movie1 info1"
+                        "movie2 info2"
+                        "movie3 info3"
+                        "movie4 info4"
+                        "movie5 info5";
+    gap: 30px 20px;
+    justify-content: center;   
+}
+.info1{
+    display: grid;
+    grid-area: info1;
+    align-items: center;
+    color: red;
+    font-size: 1.2rem;
+}
+.info2{
+    display: grid;
+    grid-area: info2;
+    align-items: center;
+    color: red;
+    font-size: 1.2rem;
+}
+.info3{
+    display: grid;
+    grid-area: info3;
+    align-items: center;
+    color: red;
+    font-size: 1.2rem;
+}
+.info4{
+    display: grid;
+    grid-area: info4;
+    align-items: center;
+    color: red;
+    font-size: 1.2rem;
+}
+.info5{
+    display: grid;
+    grid-area: info5;
+    align-items: center;
+    color: red;
+    font-size: 1.2rem;
+}
+
+.movie1{
+    display: grid;
+    grid-area: movie1;
+    background-image: url(../Assets/movie1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    justify-items: center;
+}
+.movie2{
+    display: grid;
+    grid-area: movie2;
+    background-image: url(../Assets/movie2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    justify-items: center;
+}
+    
+.movie3{
+    display: grid;
+    grid-area: movie3;
+    background-image: url(../Assets/movie3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    justify-items: center;
+}
+.movie4{
+    display: grid;
+    grid-area: movie4;
+    background-image: url(../Assets/movie4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    justify-items: center;
+}
+.movie5{
+    display: grid;
+    grid-area: movie5;
+    background-image: url(../Assets/movie5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    justify-items: center;
+}

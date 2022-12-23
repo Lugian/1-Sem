@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgba(1, 130, 176, 1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(4, 85, 138, 1);
+    padding: 30px;
+}
+
+header>div, .a2, .a1{
+    display: flex;
+    align-items: center;
+}
+
+main, main>p{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+p{
+    margin: 10px;
+}
