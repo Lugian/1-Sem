@@ -1,0 +1,11 @@
+<h1 align="center">List VECTOR</h1>
+<h4 align="center">Exercise if the Language <strong>C</strong></h4>
+
+<p><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="50px" align="left" alt="Image study"><br><strong>a.</strong> Create two 5-dimensional numeric vectors with user-entered values. Show the sum of the first vector and the <strong>inverse</strong> of the second</p>
+<p><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="50px" align="left" alt="Image study"><br><strong>b.</strong> Create a vector of size 10, let the user fill it in and enter: The sum and average of the pairs; The sum and average of the odd numbers; The total of even numbers; The total of odd numbers;</p>
+<p><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="50px" align="left" alt="Image study"><br><strong>c.</strong> Using only a vector of size 6, swap the values;</p>
+<p><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="50px" align="left" alt="Image study"><br><strong>d.</strong> Locate a value informed by the user within a vector with dimension 10;</p>
+<p><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="50px" align="left" alt="Image study"><br><strong>e.</strong> Write a program that reads 10 integer values in any order and sorts them in ascending order;</p>
+<p><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="50px" align="left" alt="Image study"><br><strong>f.</strong> Write a program that <strong>generates</strong> 100 random integer values and sorts them in ascending order;</p>
+<p><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="50px" align="left" alt="Image study"><br><strong>g.</strong> Write a program that reads 5 random integer names and sorts them in <strong>ascending</strong> order;</p>
+<p><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="50px" align="left" alt="Image study"><br><strong>h.</strong> Write a program that reads 5 random integer names and sorts them in <strong>descending</strong> order;</p>
