@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #484848;
+}
+
+.area{
+    font-family: 'JetBrains Mono', monospace;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 6% 5% 6% 4fr;
+    grid-template-areas:"header header" 
+                        "informacao informacao" 
+                        "aovivo aovivo"
+                        "main main";
+}
+
+.header{
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 4% 10% 60% 1% 10%;
+    grid-template-rows: 100%;
+    grid-template-areas: "iconcat catnew vazio iconlupa searchinput";
+    justify-content: center;
+}
+.iconcat{
+    background-image: url(Assets/caticon.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: iconcat;
+}
+.catnew{
+    display: grid;
+    align-items: center;
+    font-size: 1.3vw;
+    grid-area: catnew;
+}
+.iconlupa{
+    cursor: pointer;
+    background-image: url(Assets/lupaicon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: iconlupa;
+}
+.searchinput{
+    margin-left: 10px;
+    display: grid;
+    align-items: center;
+    grid-area: searchinput;
+}
+
+.infomacao{
+    grid-area: informacao;
+    background-color: rgb(217, 217, 217);
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:8% 8% 8% 8% 8% 25% 8%;
+    grid-template-rows: 100%;
+    grid-template-areas: "trends internet podcast games ti vazio especial";
+    justify-content: center;
+}
+
+.trends{
+    display: grid;
+    align-items: center;
+    grid-area: trends;
+}
+.internet{
+    display: grid;
+    align-items: center;
+    grid-area: internet;
+}
+.podcast{
+    display: grid;
+    align-items: center;
+    grid-area: podcast;
+}
+.games{
+    display: grid;
+    align-items: center;
+    grid-area: games;
+}
+.ti{
+    display: grid;
+    align-items: center;
+    grid-area: ti;
+}
+.especial{
+    display: grid;
+    align-items: center;
+    grid-area: especial;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 6.5% 5% 10% 10%;
+    grid-template-rows: 100%;
+    grid-template-areas: "vazio twitchlogo watchlive daylive";
+}
+.twitchlogo{
+    background-image: url(Assets/twitchlogo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: twitchlogo;
+}
+.watchlive{
+    grid-area: watchlive;
+    display: grid;
+    align-items: center;
+}
+.daylive{
+    grid-area: daylive;
+    display: grid;
+    align-items: center;
+}
+
+.aovivo{
+    grid-area: aovivo;
+    background-color: #B2B1B1;
+}
+
+.main{
+    grid-area: main;
+    background-color: #484848;
+}
+
+.container3{
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 4% 24%;
+    grid-template-rows: 7% 22% 13% 2% 20% 20% 20% 20% 6%;
+    grid-template-areas:"titlesearch titlesearch titlesearch titlesearch titlesearch"
+                        "holow littlen littlein vazio lasts" 
+                        "textholow textlittlen textlittlein vazio lasts" 
+                        "vazio3 vazio3 vazio3 vazio lasts"
+                        "gris textgris textgris vazio lasts"
+                        "poke textpoke textpoke vazio lasts"
+                        "cuphe textcuphe textcuphe vazio lasts"
+                        "mine textmine textmine vazio lasts"
+                        "nextpage vazio2 vazio2 vazio2 vazio2";
+    gap: 30px 20px;
+    justify-content: center;
+}
+
+.titlesearch{
+    grid-area: titlesearch;
+}
+.holow{
+    grid-area: holow;
+    background-image: url(Assets/hollow.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textholow{
+    grid-area: textholow;
+}
+.littlen{
+    grid-area: littlen;
+    background-image: url(Assets/littlenig.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textlittlen{
+    grid-area: textlittlen;
+}
+.littlein{
+    grid-area: littlein;
+    background-image: url(Assets/littleinf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textlittlein{
+    grid-area: textlittlein;
+}
+.gris{
+    grid-area: gris;
+    background-image: url(Assets/gris.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textgris{
+    grid-area: textgris;
+}
+.poke{
+    grid-area: poke;
+    background-image: url(Assets/pokemon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textpoke{
+    grid-area: textpoke;
+}
+.cuphe{
+    grid-area: cuphe;
+    background-image: url(Assets/cuphead.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textcuphe{
+    grid-area: textcuphe;
+}
+.mine{
+    grid-area: mine;
+    background-image: url(Assets/mine.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textmine{
+    grid-area: textmine;
+}
+.lasts{
+    grid-area: lasts;
+}
+.vazio{
+    grid-area: vazio;
+}
+.vazio2{
+    grid-area: vazio2;
+}
+.vazio3{
+    grid-area: vazio3;
+}
+.nextpage{
+    grid-area: nextpage;
+}
+
+.subcontainer1{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 95%;
+    grid-template-rows: 15% 65%;
+    grid-template-areas:"data" 
+                        "textprincipal";
+    gap: 10px 10px;
+}
+
+.data{
+    grid-area: data;
+}
+.textprincipal{
+    grid-area: textprincipal;
+}
+
+.subcontainer2{
+    width: 100%;
+    height: 75%;
+    background-color: #646363;
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: 75%;
+    grid-template-rows: 7% 23% 12% 23% 15%;
+    grid-template-areas:"lasttitle" 
+                        "last1"
+                        "textlast1"
+                        "last2"
+                        "textlast2";
+    gap: 10px;
+    justify-content: center;
+}
+
+.lasttitle{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: lasttitle;
+}
+.last1{
+    grid-area: last1;
+    background-image: url(Assets/steam.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textlast1{
+    grid-area: textlast1;
+}
+.last2{
+    grid-area: last2;
+    background-image: url(Assets/ruby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textlast2{
+    grid-area: textlast2;
+}
+
+.subcontainer3{
+    margin-top: 30px;
+    width: 100%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 40%;
+    grid-template-areas:"seemore";
+    justify-content: center;
+}
+
+.seemore{
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: seemore;
+    background-color: #878686;
+}
+
+.subcontainer4{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60%;
+    grid-template-rows: 80%;
+    grid-template-areas: "clicknextpage";
+    justify-content: center;
+}
+
+.clicknextpage{
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: clicknextpage;
+    background-color: #878686;
+}
+
+@media (max-width: 700px) {
+    .container  img {
+        display: block;
+    }
+    .catnew, .iconlupa, .searchinput > input,.lasts {
+        display: none;
+    }
+}

@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #484848;
+}
+
+.area{
+    font-family: 'JetBrains Mono', monospace;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 6% 5% 6% 4fr;
+    grid-template-areas:"header header" 
+                        "informacao informacao" 
+                        "aovivo aovivo"
+                        "main main";
+}
+
+.header{
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 4% 10% 60% 1% 10%;
+    grid-template-rows: 100%;
+    grid-template-areas: "iconcat catnew vazio iconlupa searchinput";
+    justify-content: center;
+}
+.iconcat{
+    background-image: url(../../Assets/caticon.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: iconcat;
+}
+.catnew{
+    display: grid;
+    align-items: center;
+    font-size: 1.2vw;
+    grid-area: catnew;
+}
+.iconlupa{
+    cursor: pointer;
+    background-image: url(../../Assets/lupaicon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: iconlupa;
+}
+.searchinput{
+    margin-left: 10px;
+    display: grid;
+    align-items: center;
+    grid-area: searchinput;
+}
+
+.infomacao{
+    grid-area: informacao;
+    background-color: rgb(217, 217, 217);
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:8% 8% 8% 8% 8% 25% 8%;
+    grid-template-rows: 100%;
+    grid-template-areas: "trends internet podcast games ti vazio especial";
+    justify-content: center;
+    align-items: center;
+}
+
+.trends{
+    
+    grid-area: trends;
+}
+.internet{
+    grid-area: internet;
+}
+.podcast{
+    grid-area: podcast;
+}
+.games{
+    grid-area: games;
+}
+.ti{
+    grid-area: ti;
+}
+.especial{
+    grid-area: especial;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 6.5% 5% 10% 10%;
+    grid-template-rows: 100%;
+    grid-template-areas: "vazio twitchlogo watchlive daylive";
+}
+.twitchlogo{
+    background-image: url(../../Assets/twitchlogo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: twitchlogo;
+}
+.watchlive{
+    grid-area: watchlive;
+    display: grid;
+    align-items: center;
+}
+.daylive{
+    grid-area: daylive;
+    display: grid;
+    align-items: center;
+}
+
+.aovivo{
+    grid-area: aovivo;
+    background-color: #B2B1B1;
+}
+
+.main{
+    grid-area: main;
+    background-color: #484848;
+}
+
+.container3{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19%;
+    grid-template-rows: 8% 5% 18% 20% 5% 18% 20% 5% 18% 20% 5% 18% 20% 5% 18% 20%;
+    grid-template-areas:"titlesearch titlesearch titlesearch titlesearch"
+                        "titletrend titletrend titletrend titletrend"
+                        "raptor silent lether lekki" 
+                        "textraptor textsilent textlether textlekki" 
+                        "titleinternet titleinternet titleinternet titleinternet"
+                        "tiktok insta visa chatbot"
+                        "texttiktok textinsta textvisa textchatbot"
+                        "titlepod titlepod titlepod titlepod"
+                        "nba lula kanye serial"
+                        "textnba textlula textkanye textserial"
+                        "titlegames titlegames titlegames titlegames"
+                        "holow night inferno undertale"
+                        "textholow textnight textinferno textundertale"
+                        "titleti titleti titleti titleti"
+                        "ruby py github ibm"
+                        "textruby textpy textgithub textibm";
+    gap: 20px 80px;
+    justify-content: center;
+}
+
+.titlesearch{
+    grid-area: titlesearch;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.titletrend{
+    grid-area: titletrend;
+}
+.raptor{
+    background-image: url(../Assets/trends/raptors.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: raptor;
+}
+.texraptor{
+    grid-area: textraptor;
+}
+.silent{
+    background-image: url(../Assets/trends/silent\ hill.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: silent;
+}
+.textsilent{
+    grid-area: textsilent;
+}
+.lether{
+    background-image: url(../Assets/trends/letherrun.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: lether;
+}
+.textlether{
+    grid-area: textlether;
+}
+.lekki{
+    background-image: url(../Assets/trends/lekki.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: lekki;
+}
+.textlekki{
+    grid-area: textlekki;
+}
+
+            
+.titleinternet{
+    grid-area: titleinternet;
+}
+.tiktok{
+    background-image: url(../Assets/internet/tiktok.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: tiktok;
+}
+.texttiktok{
+    grid-area: texttiktok;
+}
+.insta{
+    background-image: url(../Assets/internet/Instagram.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: insta;
+}
+.textinsta{
+    grid-area: textinsta;
+}
+.visa{
+    background-image: url(../Assets/internet/visa.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: visa;
+}
+.textvisa{
+    grid-area: textvisa;
+}
+.chatbot{
+    background-image: url(../Assets/internet/chatbot.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: chatbot;
+}
+.textchatbot{
+    grid-area: textchatbot;
+}
+
+
+.titlepod{
+    grid-area: titlepod;
+}
+.nba{
+    background-image: url(../Assets/podcast/nba.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: nba;
+}
+.textnba{
+    grid-area: textnba;
+}
+.lula{
+    background-image: url(../Assets/podcast/lula.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: lula;
+}
+.textlula{
+    grid-area: textlula;
+}
+.kanye{
+    background-image: url(../Assets/podcast/kanyewest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: kanye;
+}
+.textkanye{
+    grid-area: textkanye;
+}
+.serial{
+    background-image: url(../Assets/podcast/serial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: serial;
+}
+.textserial{
+    grid-area: textserial;
+}
+
+
+.titlegames{
+    grid-area: titlegames;
+}
+.holow{
+    background-image: url(../Assets/games/hollow.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: holow;
+}
+.textholow{
+    grid-area: textholow;
+}
+.night{
+    background-image: url(../Assets/games/littlenig.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: night;
+}
+.textnight{
+    grid-area: textnight;
+}
+.inferno{
+    background-image: url(../Assets/games/littleinf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: inferno;
+}
+.textinferno{
+    grid-area: textinferno;
+}
+.undertale{
+    background-image: url(../Assets/games/undertale.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: undertale;
+}
+.textundertale{
+    grid-area: textundertale;
+}
+
+
+.titleti{
+    grid-area: titleti;
+}
+.ruby{
+    background-image: url(../Assets/t.i/ruby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: ruby;
+}
+.textruby{
+    grid-area: textruby;
+}
+.py{
+    background-image: url(../Assets/t.i/py.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: py;
+}
+.textpy{
+    grid-area: textpy;
+}
+.github{
+    background-image: url(../Assets/t.i/github.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: github;
+}
+.textgithub{
+    grid-area: textgithub;
+}
+.ibm{
+    background-image: url(../Assets/t.i/ibm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: ibm;
+}
+.textibm{
+    grid-area: textibm;
+}
+
