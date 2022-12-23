@@ -1,5 +1,13 @@
- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <h1 align="center"><img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="44px" alt="h1">    First semester Senai - DS  <img src="https://i.pinimg.com/originals/1a/56/ea/1a56eaaaf78869d7c6e0e620b2b98394.gif" width="44px" alt="h1"></h1>
+ 
+ <br></br>
 <h4 align="center">Languages</h4>
 <ul style="list-style: none;">
    <li align="center">
@@ -9,7 +17,7 @@
                 <img  src="https://camo.githubusercontent.com/d3906162b383f428da6952e9da7cf1467cd4ffda1d90283c83b559272ec977dc/68747470733a2f2f63646e2e69636f6e73636f75742e636f6d2f69636f6e2f667265652f706e672d3531322f632d70726f6772616d6d696e672d3536393536342e706e67" width="45px" alt="c">
 </li>
 </ul>
-
+<br></br>
 <h4 align="center">Apps and resources</h4>
    <ul style="list-style: none;">
             <li align="center">
@@ -38,4 +46,4 @@
                 <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/%C3%8Dcone-Logo-Excel-PNG.png" width="45px" alt="excel">
                </li>
    </ul>               
-                 
+</html>                 
